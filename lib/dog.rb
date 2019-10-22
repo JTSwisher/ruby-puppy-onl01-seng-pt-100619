@@ -19,7 +19,7 @@ class Dog
   end 
   
   def self.print_all
-    puts @@all.map {|x| x}
+    puts @@all.map {|x| x.name}
   end 
   
   def self.clear_all
