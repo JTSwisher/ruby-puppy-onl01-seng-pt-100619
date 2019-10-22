@@ -19,8 +19,7 @@ class Dog
   end 
   
   def self.print_all
-    binding.pry
-    @@all.each {|x| x(:name)}
+    puts @@all.map {|x| x}
   end 
   
   def self.clear_all
